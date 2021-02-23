@@ -1,7 +1,7 @@
 # `10` Render on Click
 
 Las interacciones del usuario normalmente requieren cambios en el DOM. Usamos eventos para eso.
-Si no te sientes cómodo con los eventos, completa todos [los ejercicios aquí](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises).
+Si no te sientes cómodo con los eventos, completa todos [los ejercicios aquí](https://githcdub.com/4GeeksAcademy/javascript-events-tutorial-exercises).
 
 ## 📝 Instrucciones:
 
