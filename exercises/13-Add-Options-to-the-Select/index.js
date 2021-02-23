@@ -4,16 +4,12 @@ window.onload = function() {
 
   // your code here
 	const combobox = document.querySelector('#mySelect');
-	// let option = '';
-
 	countries.forEach(pais => {
-		// option+=`<option value="${index}">${pais}</option>`;
 		let option = document.createElement('OPTION');
 		option.value = pais;
 		option.text = pais;
 		combobox.appendChild(option);
 	});
-	// combobox.innerHTML = option;	
 
 	combobox.addEventListener('change', e => e.target.value != -1 && alert(e.target.value));
 };
