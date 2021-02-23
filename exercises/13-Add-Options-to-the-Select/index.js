@@ -10,6 +10,6 @@ window.onload = function() {
 		option.text = pais;
 		combobox.appendChild(option);
 	});
-
+	
 	combobox.addEventListener('change', e => e.target.value != -1 && alert(e.target.value));
 };
