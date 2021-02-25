@@ -89,7 +89,7 @@ input#addToDo:focus button {
 } */
 
 i.fa-trash {
-	margin: 7px;
+	padding: 9px 12px;
 }
 
 span {
@@ -101,7 +101,7 @@ span {
 	text-align: center;
 	display: inline-block;
 	color: white;
-	opacity: 0;
+	opacity: 1;
 	transition: 0.2s linear;
 }
 

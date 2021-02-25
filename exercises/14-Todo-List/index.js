@@ -15,6 +15,7 @@ const todo = document.querySelector('#addToDo');
 const ul = document.getElementsByTagName('UL')[0];
 
 todo.addEventListener('keydown', addTask);
+// deleteTask();
 
 function addTask(e) {
     if (e.keyCode == 13) {
@@ -27,12 +28,19 @@ function addTask(e) {
             ul.appendChild(li);
             todo.value='';
         }
+        //deleteTask();
     }
 }
 
 ul.addEventListener('click', deleteTask);
 
 function deleteTask(e) {
+    // const del = ul.querySelectorAll('li'); // Selecciona todos los li contenidos en ul
+    // del.forEach(item => {
+    //     item.children[0].addEventListener('click', () => {
+    //         item.parentNode.removeChild(item);
+    //     });
+    // });
     if(e.target.classList.contains('fa')) {
         const tarea = e.target.parentNode.parentNode;
         tarea.remove();
